@@ -37,7 +37,7 @@ class ScheduleRunCronlessCommand extends Command
         $this
             ->outputHeader()
             ->scheduleCommand()
-            ->registerKeypressHandler()
+            //->registerKeypressHandler()
             ->runCronlessCommand();
 
         $this->loop->run();
